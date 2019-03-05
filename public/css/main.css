@@ -2025,7 +2025,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f0e2d2;
+  background: #fe1dff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2904,7 +2904,7 @@ embed {
   border-left: 8px solid #4d768c;
 }
 .header {
-  background: url("/images/header-bg.jpg");
+  background: url("/images/head-bg.jpg");
 }
 .site-meta {
   float: none;
@@ -2932,7 +2932,7 @@ embed {
   font-size: 32px;
   font-family: 'Comic Sans MS', sans-serif;
   letter-spacing: 1px;
-  color: #fff;
+  color: #515359;
 }
 .footer {
   background: none;
@@ -2960,6 +2960,9 @@ embed {
   color: #649ab6;
 }
 .sidebar {
+  background: url("/images/bk.jpg") center no-repeat;
+  background-size: 320px 709px;
+  background-position-y: 1vh;
   box-shadow: inset 2px 2px 40px #bdb2b2;
 }
 .sidebar a {
