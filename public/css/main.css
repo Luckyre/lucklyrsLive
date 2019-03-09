@@ -2025,7 +2025,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #24ff26;
+  background: #989ee4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2906,6 +2906,9 @@ embed {
 .header {
   background: url("/images/head-bg.jpg");
 }
+.header .attachment-full {
+  display: inline-block;
+}
 .site-meta {
   float: none;
 }
@@ -2917,9 +2920,15 @@ embed {
   display: none;
 }
 .menu .menu-item a {
-  font-size: 14px;
+  font-size: 16px;
   color: #0f2e41;
   border-radius: 4px;
+}
+.menu .menu-item a:hover {
+  color: #f58333;
+}
+menu .menu-item .fa {
+  font-size: 20px;
 }
 .brand {
   background-color: rgba(255,255,255,0);
@@ -2934,6 +2943,9 @@ embed {
   letter-spacing: 1px;
   color: #515359;
 }
+.main {
+  background: #fff;
+}
 .footer {
   background: none;
   font-size: 16px;
@@ -2942,6 +2954,9 @@ embed {
   font-family: 'Comic Sans MS', sans-serif;
   text-align: center;
   color: #4c618f;
+}
+.with-love {
+  color: #f00;
 }
 .site-author-name {
   margin: 48px 0 0;
@@ -2966,9 +2981,10 @@ embed {
   box-shadow: inset 2px 2px 40px #bdb2b2;
 }
 .sidebar a {
-  color: #649ab6;
-  border-bottom-color: #649ab6;
+  color: #88462d;
+  border-bottom-color: #4c4914;
   border-bottom: none;
+  text-decoration: none;
 }
 .sidebar a:hover {
   color: #0c0b0b;
@@ -3021,4 +3037,10 @@ a {
 }
 .post-button a:hover {
   color: #7784ba;
+}
+.links-of-author-item a {
+  text-decoration: none;
+}
+.links-of-author-item a:before {
+  background: transparent;
 }
