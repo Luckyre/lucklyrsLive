@@ -8,19 +8,19 @@ const ap = new APlayer({
       name: '半盏清寒',
       artist: '一盏灯',
       url: 'http://www.ytmp3.cn/down/58724.mp3',
-      cover: 'http://oeff2vktt.bkt.clouddn.com/image/84.jpg',
+      cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG_mMiIA1QAuVyy7ALCph6YTA77uRQQhtBjMWam1Z-suznDz3U',
     },
     {
       name: 'Always With Me',
       artist: '千与千寻',
       url: 'http://www.ytmp3.cn/down/52367.mp3',
-      cover: 'http://oeff2vktt.bkt.clouddn.com/image/8.jpg',
+      cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG_mMiIA1QAuVyy7ALCph6YTA77uRQQhtBjMWam1Z-suznDz3U',
     },
     {
       name: '风筝误',
       artist: '刘珂矣',
       url: 'http://up.mcyt.net/?down/46644.mp3',
-      cover: 'http://oeff2vktt.bkt.clouddn.com/image/96.jpg',
+      cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG_mMiIA1QAuVyy7ALCph6YTA77uRQQhtBjMWam1Z-suznDz3U',
     }
   ]
 });

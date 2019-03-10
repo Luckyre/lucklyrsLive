@@ -2025,7 +2025,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #989ee4;
+  background: #224246;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2909,6 +2909,9 @@ embed {
 .header .attachment-full {
   display: inline-block;
 }
+.header .github-link {
+  position: absolute;
+}
 .site-meta {
   float: none;
 }
@@ -2980,8 +2983,11 @@ menu .menu-item .fa {
   background-position-y: 1vh;
   box-shadow: inset 2px 2px 40px #bdb2b2;
 }
-.sidebar a {
+#days {
   color: #88462d;
+}
+.sidebar a {
+  color: #88391a;
   border-bottom-color: #4c4914;
   border-bottom: none;
   text-decoration: none;
@@ -3043,4 +3049,68 @@ a {
 }
 .links-of-author-item a:before {
   background: transparent;
+}
+p.description {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  color: #666;
+  margin-top: 30px;
+}
+code.description {
+  padding: 1px 1px 1px 1px;
+  margin: 0px 1px 0px 4px;
+}
+img#github-emoji {
+  margin: 0px;
+  padding: 0px;
+  display: inline !important;
+  vertical-align: text-bottom;
+  border: none;
+  cursor: text;
+  box-shadow: none;
+}
+.post-body a {
+  color: #5073b8;
+  border-bottom: none;
+  text-decoration: underline;
+}
+.post-body a:hover {
+  color: #a166ab;
+  border-bottom: none;
+  text-decoration: underline;
+}
+.tag-cloud a {
+  color: #5073b8;
+  border-bottom: 1px solid #5073b8;
+  text-decoration: none;
+}
+.tag-cloud a:hover {
+  color: #a166ab;
+  border-bottom: 1px solid #a166ab;
+  text-decoration: none;
+}
+a.categories {
+  color: #5073b8;
+  border-bottom: none;
+  text-decoration: underline;
+}
+a.categories:hover {
+  color: #a166ab;
+  border-bottom: none;
+  text-decoration: underline;
+}
+.post-body .tabs ul.nav-tabs li.tab a {
+  text-decoration: none;
+}
+a.fancybox {
+  text-decoration: none !important;
+}
+.btn {
+  color: #fff !important;
+  text-decoration: none !important;
+  border: 2px solid #222 !important;
+}
+.btn:hover {
+  color: #222 !important;
 }
