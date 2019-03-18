@@ -32,6 +32,17 @@ image:
    该主题(next/source/css/_custom)文件下的的custom.styl这个文件style（👀 f12控制台定位元素整改）
    🧐可在(next/source/css/main.styl)中查看该style文件暴露的入口
   
+####  (4)博客写作所需
+```
+$ hexo new [layout] <title> 创建新的文章模板
+```
+  https://hexo.io/zh-cn/docs/writing.html（具体文档）
+
+   Markdown语法
+   
+   https://coding.net/help/doc/project/markdown.html#Markdown
+   
+
 ####  <font color="#88391a">持续更新中</font>😆
 
 
