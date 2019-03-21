@@ -45,8 +45,9 @@ image:
 ```
 
                  
-##
+## javascript的闭包和执行上下文
+<img src="https://i.loli.net/2019/03/20/5c917cf3be0a7.png"   alt=""  />
 
-##
+## javascript
 
 <hr />
