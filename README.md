@@ -2,17 +2,19 @@
 Every bit of life
 
 
-博客由hexo NexT搭建 地址https://www.xinan955.top/
+博客由hexo NexT搭建 地址   &nbsp; https://lucklyrs.cn/
 
 
-##注意事项
-
+### 注意事项
 
 该博客初略搭建的小插件
-#music plugins
-https://github.com/MoePlayer/APlayer
 
-（1）解压后将dist文件夹复制到themes\next\source\js\src文件夹下
+### music plugins
+
+  https://github.com/MoePlayer/APlayer
+
+
+ （1）解压后将dist文件夹复制到themes\next\source\js\src文件夹下
 ```javascript
 const ap = new APlayer({
 // 大概格式结构参考文档
