@@ -122,18 +122,18 @@
 
 
 
+<meta name="description" content="处理章节等同级数据节点">
 <meta name="keywords" content="JavaScript">
 <meta property="og:type" content="article">
-<meta property="og:title" content="javascript小记">
-<meta property="og:url" content="http://xinan955.top/uncategorized/2019/03/18/javascript-execute.html">
+<meta property="og:title" content="node-loop">
+<meta property="og:url" content="http://xinan955.top/Javascript/2019/04/11/node-loop.html">
 <meta property="og:site_name" content="luckrys的博客">
+<meta property="og:description" content="处理章节等同级数据节点">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://i.loli.net/2019/03/18/5c8fa8c0ee200.jpg">
-<meta property="og:image" content="https://i.loli.net/2019/03/20/5c917cf3be0a7.png">
-<meta property="og:updated_time" content="2019-04-13T08:27:02.000Z">
+<meta property="og:updated_time" content="2019-04-13T08:35:49.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="javascript小记">
-<meta name="twitter:image" content="https://i.loli.net/2019/03/18/5c8fa8c0ee200.jpg">
+<meta name="twitter:title" content="node-loop">
+<meta name="twitter:description" content="处理章节等同级数据节点">
 
 
 
@@ -163,13 +163,13 @@
 
 
 
-  <link rel="canonical" href="http://xinan955.top/uncategorized/2019/03/18/javascript-execute.html">
+  <link rel="canonical" href="http://xinan955.top/Javascript/2019/04/11/node-loop.html">
 
 
 
 
 
-  <title>javascript小记 | luckrys的博客</title>
+  <title>node-loop | luckrys的博客</title>
   
 
 
@@ -298,7 +298,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://xinan955.top/uncategorized/2019/03/18/javascript-execute.html">
+    <link itemprop="mainEntityOfPage" href="http://xinan955.top/Javascript/2019/04/11/node-loop.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="XinAn">
@@ -315,7 +315,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">javascript小记</h1>
+          <h1 class="post-title" itemprop="name headline">node-loop</h1>
         
 
         <div class="post-meta">
@@ -327,8 +327,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-18T22:12:18+08:00">
-                2019-03-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T21:58:03+08:00">
+                2019-04-11
               </time>
             
 
@@ -338,6 +338,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Javascript/" itemprop="url" rel="index">
+                    <span itemprop="name">Javascript</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -345,7 +367,7 @@
 
           
           
-             <span id="/uncategorized/2019/03/18/javascript-execute.html" class="leancloud_visitors" data-flag-title="javascript小记">
+             <span id="/Javascript/2019/04/11/node-loop.html" class="leancloud_visitors" data-flag-title="node-loop">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -370,7 +392,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  280
+                  712
                 </span>
               
 
@@ -395,16 +417,14 @@
       
 
       
-        <p class="description"></p>
+        <p class="description">&#x5904;&#x7406;&#x7AE0;&#x8282;&#x7B49;&#x540C;&#x7EA7;&#x6570;&#x636E;&#x8282;&#x70B9;</p>
 
-<p><img src="https://i.loli.net/2019/03/18/5c8fa8c0ee200.jpg" alt style="width:100%"></p>
 <a id="more"></a>
-<h4 id="javascript&#x6267;&#x884C;-Promise&#x91CC;&#x7684;&#x4EE3;&#x7801;&#x4E3A;&#x4EC0;&#x4E48;&#x6BD4;setTimeout&#x5148;&#x6267;&#x884C;"><a href="#javascript&#x6267;&#x884C;-Promise&#x91CC;&#x7684;&#x4EE3;&#x7801;&#x4E3A;&#x4EC0;&#x4E48;&#x6BD4;setTimeout&#x5148;&#x6267;&#x884C;" class="headerlink" title="javascript&#x6267;&#x884C;:(Promise&#x91CC;&#x7684;&#x4EE3;&#x7801;&#x4E3A;&#x4EC0;&#x4E48;&#x6BD4;setTimeout&#x5148;&#x6267;&#x884C;)"></a>javascript&#x6267;&#x884C;:(Promise&#x91CC;&#x7684;&#x4EE3;&#x7801;&#x4E3A;&#x4EC0;&#x4E48;&#x6BD4;setTimeout&#x5148;&#x6267;&#x884C;)</h4><pre><code>&#x6211;&#x4EEC;&#x628A;&#x5BBF;&#x4E3B;&#x53D1;&#x8D77;&#x7684;&#x4EFB;&#x52A1;&#x79F0;&#x4E3A;&#x5B8F;&#x89C2;&#x4EFB;&#x52A1;, &#x628A;javascript&#x5F15;&#x64CE;&#x53D1;&#x8D77;&#x7684;&#x4EFB;&#x52A1;&#x79F0;&#x4E3A;&#x5FAE;&#x89C2;&#x4EFB;&#x52A1;&#x1F440; 
-</code></pre>   <figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> r = <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="keyword">function</span>(<span class="params">resolve, reject</span>)</span>{</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;a&quot;</span>);</span><br><span class="line">    resolve()</span><br><span class="line">});</span><br><span class="line">setTimeout(<span class="function"><span class="params">()</span>=&gt;</span><span class="built_in">console</span>.log(<span class="string">&quot;d&quot;</span>), <span class="number">0</span>)</span><br><span class="line">r.then(<span class="function"><span class="params">()</span> =&gt;</span> <span class="built_in">console</span>.log(<span class="string">&quot;c&quot;</span>));</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">&quot;b&quot;</span>)</span><br></pre></td></tr></tbody></table></figure>
-<p>   &#x4EE5;&#x4E0A;&#x6267;&#x884C;&#x7ED3;&#x679C;&#x53EF;&#x81EA;&#x884C;&#x5C1D;&#x8BD5;&#x8FD0;&#x884C;&#xFF08;abcd&#x1F61D;&#xFF09;&#xFF0C;d &#x5FC5;&#x5B9A;&#x53D1;&#x751F;&#x5728; c &#x4E4B;&#x540E;&#xFF0C;&#x56E0;&#x4E3A; Promise &#x4EA7;&#x751F;&#x7684;&#x662F;javascript&#x5F15;&#x64CE;&#x5185;&#x90E8;&#x7684;&#x5FAE;&#x4EFB;&#x52A1;&#xFF0C;&#x800C;setTimeout&#x662F;&#x6D4F;&#x89C8;&#x5668;&#x7684;API,&#x5B83;&#x4EA7;&#x751F;&#x5B8F;&#x4EFB;&#x52A1;<br> ,&#x5FAE;&#x4EFB;&#x52A1;&#x59CB;&#x7EC8;&#x5148;&#x4E8E;&#x5B8F;&#x4EFB;&#x52A1; &#xFF08;&#x5FAE;&#x89C2;&#x4EFB;&#x52A1;&#x4E0D;&#x6267;&#x884C;&#x5B8C;&#x6210;&#x4E0D;&#x4F1A;&#x8FDB;&#x884C;&#x5B8F;&#x89C2;&#x4EFB;&#x52A1;&#xFF09;</p>
- <figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">setTimeout(<span class="function"><span class="params">()</span>=&gt;</span><span class="built_in">console</span>.log(<span class="string">&quot;d&quot;</span>), <span class="number">0</span>)</span><br><span class="line"><span class="keyword">var</span> r1 = <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="keyword">function</span>(<span class="params">resolve, reject</span>)</span>{</span><br><span class="line">    resolve()</span><br><span class="line">});</span><br><span class="line">r.then(<span class="function"><span class="params">()</span> =&gt;</span> { </span><br><span class="line">    <span class="keyword">var</span> begin = <span class="built_in">Date</span>.now();</span><br><span class="line">    <span class="keyword">while</span>(<span class="built_in">Date</span>.now() - begin &lt; <span class="number">1000</span>);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;c1&quot;</span>) </span><br><span class="line">    <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="keyword">function</span>(<span class="params">resolve, reject</span>)</span>{</span><br><span class="line">        resolve()</span><br><span class="line">    }).then(<span class="function"><span class="params">()</span> =&gt;</span> <span class="built_in">console</span>.log(<span class="string">&quot;c2&quot;</span>))</span><br><span class="line">});</span><br></pre></td></tr></tbody></table></figure>
-<h2 id="javascript&#x7684;&#x95ED;&#x5305;&#x548C;&#x6267;&#x884C;&#x4E0A;&#x4E0B;&#x6587;"><a href="#javascript&#x7684;&#x95ED;&#x5305;&#x548C;&#x6267;&#x884C;&#x4E0A;&#x4E0B;&#x6587;" class="headerlink" title="javascript&#x7684;&#x95ED;&#x5305;&#x548C;&#x6267;&#x884C;&#x4E0A;&#x4E0B;&#x6587;"></a>javascript&#x7684;&#x95ED;&#x5305;&#x548C;&#x6267;&#x884C;&#x4E0A;&#x4E0B;&#x6587;</h2><p><img src="https://i.loli.net/2019/03/20/5c917cf3be0a7.png" alt></p>
-<h2 id="javascript"><a href="#javascript" class="headerlink" title="javascript"></a>javascript</h2><hr><script>
+<h4 id="&#x5F53;&#x7AE0;&#x8282;&#x8BFE;&#x65F6;&#x8FD9;&#x79CD;&#x672C;&#x5C5E;&#x4E8E;&#x4E09;&#x5C42;&#x7C7B;&#x578B;&#x6570;&#x636E;&#x4F20;&#x5165;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#x6570;&#x636E;&#x5904;&#x7406;&#x65F6;&#x1F440;"><a href="#&#x5F53;&#x7AE0;&#x8282;&#x8BFE;&#x65F6;&#x8FD9;&#x79CD;&#x672C;&#x5C5E;&#x4E8E;&#x4E09;&#x5C42;&#x7C7B;&#x578B;&#x6570;&#x636E;&#x4F20;&#x5165;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#x6570;&#x636E;&#x5904;&#x7406;&#x65F6;&#x1F440;" class="headerlink" title="&#x5F53;&#x7AE0;&#x8282;&#x8BFE;&#x65F6;&#x8FD9;&#x79CD;&#x672C;&#x5C5E;&#x4E8E;&#x4E09;&#x5C42;&#x7C7B;&#x578B;&#x6570;&#x636E;&#x4F20;&#x5165;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#x6570;&#x636E;&#x5904;&#x7406;&#x65F6;&#x1F440;"></a>&#x5F53;&#x7AE0;&#x8282;&#x8BFE;&#x65F6;&#x8FD9;&#x79CD;&#x672C;&#x5C5E;&#x4E8E;&#x4E09;&#x5C42;&#x7C7B;&#x578B;&#x6570;&#x636E;&#x4F20;&#x5165;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#x6570;&#x636E;&#x5904;&#x7406;&#x65F6;&#x1F440;</h4><pre><code>&#x4E0B;&#x5217;&#x4E3A;&#x4E09;&#x5C42;&#x540C;&#x7EA7;&#x7684;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#x6570;&#x636E;
+</code></pre><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> lessonsList = [</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;15941&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;chapter&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;&#x4E00;&#x7AE0; &#x603B;&#x8BBA;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;22183&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;unit&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x6CD5;&#x5F8B;&#x57FA;&#x7840;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;15949&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;1&#x8BB2;-&#x6CD5;&#x7684;&#x5165;&#x95E8;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;15950&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;2&#x8BB2;-&#x6CD5;&#x5F8B;&#x5173;&#x7CFB;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;15951&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;3&#x8BB2;-&#x6CD5;&#x5F8B;&#x4E8B;&#x5B9E;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;15952&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;4&#x8BB2;-&#x6CD5;&#x7684;&#x5F62;&#x5F0F;&#x4E0E;&#x5206;&#x7C7B;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;15953&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;5&#x8BB2;-&#x6CD5;&#x5F8B;&#x90E8;&#x95E8;&#x4E0E;&#x6CD5;&#x5F8B;&#x4F53;&#x7CFB;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;22184&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;unit&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7ECF;&#x6D4E;&#x7EA0;&#x7EB7;&#x89E3;&#x51B3;&#x9014;&#x5F84;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;15954&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;1&#x8BB2;-&#x7ECF;&#x6D4E;&#x7EA0;&#x7EB7;&#x89E3;&#x51B3;&#x9014;&#x5F84;&#x5165;&#x95E8;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;22218&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;2&#x8BB2;-&#x4EF2;&#x88C1;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;25602&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;3&#x8BB2; &#x6C11;&#x4E8B;&#x8BC9;&#x8BBC;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;22220&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;4&#x8BB2;-&#x884C;&#x653F;&#x590D;&#x8BAE;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;22221&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;5&#x8BB2;-&#x884C;&#x653F;&#x8BC9;&#x8BBC;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;22186&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;unit&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x6CD5;&#x5F8B;&#x8D23;&#x4EFB;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;22222&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;1&#x8BB2;-&#x6CD5;&#x5F8B;&#x8D23;&#x4EFB;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;15942&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;chapter&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;&#x4E8C;&#x7AE0; &#x4F1A;&#x8BA1;&#x6CD5;&#x5F8B;&#x5236;&#x5EA6;&apos;</span>},</span><br><span class="line">  {<span class="attr">id</span>: <span class="string">&apos;22222&apos;</span>, <span class="attr">type</span>: <span class="string">&apos;lesson&apos;</span>, <span class="attr">title</span>: <span class="string">&apos;&#x7B2C;1&#x8BB2;-&#x6CD5;&#x5F8B;&#x8D23;&#x4EFB;&apos;</span>},</span><br><span class="line">];</span><br></pre></td></tr></tbody></table></figure>
+<h4 id="&#x5F53;&#x524D;&#x53F0;&#x5C55;&#x793A;&#x9700;&#x8981;&#x4ECE;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#x8F6C;&#x6362;&#x4E3A;&#x4E09;&#x7EF4;&#x6570;&#x7EC4;&#xFF08;&#x7AE0;&#x8282;&#x8BFE;&#x65F6;&#x7B49;&#x4E09;&#x5C42;&#x7EA7;&#x7236;&#x5B50;&#x7EA7;&#x522B;&#x5173;&#x7CFB;&#x578B;&#x6570;&#x636E;&#xFF09;-&#x2C7;&#x2CD;&#x2C7;-&#x60F3;&#xFF5E;"><a href="#&#x5F53;&#x524D;&#x53F0;&#x5C55;&#x793A;&#x9700;&#x8981;&#x4ECE;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#x8F6C;&#x6362;&#x4E3A;&#x4E09;&#x7EF4;&#x6570;&#x7EC4;&#xFF08;&#x7AE0;&#x8282;&#x8BFE;&#x65F6;&#x7B49;&#x4E09;&#x5C42;&#x7EA7;&#x7236;&#x5B50;&#x7EA7;&#x522B;&#x5173;&#x7CFB;&#x578B;&#x6570;&#x636E;&#xFF09;-&#x2C7;&#x2CD;&#x2C7;-&#x60F3;&#xFF5E;" class="headerlink" title="&#x5F53;&#x524D;&#x53F0;&#x5C55;&#x793A;&#x9700;&#x8981;&#x4ECE;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#x8F6C;&#x6362;&#x4E3A;&#x4E09;&#x7EF4;&#x6570;&#x7EC4;&#xFF08;&#x7AE0;&#x8282;&#x8BFE;&#x65F6;&#x7B49;&#x4E09;&#x5C42;&#x7EA7;&#x7236;&#x5B50;&#x7EA7;&#x522B;&#x5173;&#x7CFB;&#x578B;&#x6570;&#x636E;&#xFF09;(&#x2C7;&#x2CD;&#x2C7;) &#x60F3;&#xFF5E;"></a>&#x5F53;&#x524D;&#x53F0;&#x5C55;&#x793A;&#x9700;&#x8981;&#x4ECE;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#x8F6C;&#x6362;&#x4E3A;&#x4E09;&#x7EF4;&#x6570;&#x7EC4;&#xFF08;&#x7AE0;&#x8282;&#x8BFE;&#x65F6;&#x7B49;&#x4E09;&#x5C42;&#x7EA7;&#x7236;&#x5B50;&#x7EA7;&#x522B;&#x5173;&#x7CFB;&#x578B;&#x6570;&#x636E;&#xFF09;(&#x2C7;&#x2CD;&#x2C7;) &#x60F3;&#xFF5E;</h4><p>   &#x5C01;&#x88C5;&#x4EE5;&#x4E0B;&#x51FD;&#x6570;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5904;&#x7406;<br></p><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * &#x5C06;&#x7AE0;&#x8282;&#x8BFE;&#x65F6;&#x540C;&#x7EA7;&#xFF0C;&#x6539;&#x4E3A;&#x7AE0;-&gt;&#x8282;&#x3001;&#x8BFE;&#x65F6;</span></span><br><span class="line"><span class="comment"> * @param courseLessonLists</span></span><br><span class="line"><span class="comment"> * @returns {Array}</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">filterLessonLists</span>(<span class="params">courseLessonLists</span>) </span>{</span><br><span class="line">  <span class="keyword">const</span> chapterList = lessonListFlatToArry(courseLessonLists, <span class="string">&apos;chapter&apos;</span>);</span><br><span class="line">  chapterList.map(<span class="function">(<span class="params">val,item</span>) =&gt;</span>{</span><br><span class="line">    val.children = lessonListFlatToArry(val,children, <span class="string">&apos;unit&apos;</span>); <span class="comment">// &#x5206;&#x79BB;&#x8282;&#x548C;&#x8BFE;&#x65F6;</span></span><br><span class="line">  })</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">lessonListFlatToArry</span>(<span class="params">list,nodeType</span>)</span>{</span><br><span class="line">  <span class="keyword">let</span> indexArray = []; <span class="comment">//&#x7AE0;&#x6216;&#x8282;&#x7684;&#x7D22;&#x5F15;</span></span><br><span class="line">  <span class="keyword">let</span> filterTemplateLessonLists = [];</span><br><span class="line">  list.forEach(<span class="function">(<span class="params">valItem,index</span>)=&gt;</span> {</span><br><span class="line">    <span class="keyword">if</span>(valItem.type === nodeType) indexArray.push(index);</span><br><span class="line">  });</span><br><span class="line">  indexArray.map(<span class="function">(<span class="params">chapterIndex, index, arry</span>)=&gt;</span>{</span><br><span class="line">    <span class="keyword">let</span> obj ={};</span><br><span class="line">    <span class="keyword">if</span>(arry[index +<span class="number">1</span>]) {</span><br><span class="line">      <span class="comment">//&#x7AE0;&#x540E;&#x4E00;&#x4E2A;index&#x5B58;&#x5728;&#x3001;&#x622A;&#x53D6;&#x540E;&#x4E00;&#x4E2A;&#x7AE0;/&#x8282;&#x4E4B;&#x95F4; index </span></span><br><span class="line">      obj = list[chapterIndex];</span><br><span class="line">      obj.isShow = <span class="number">0</span>;  <span class="comment">//&#x4E3A;&#x4E86;&#x540E;&#x7EED;&#x63A7;&#x5236;&#x5C42;&#x7EA7;&#x6536;&#x7F29;&#x62C9;&#x5347;&#x72B6;&#x6001;</span></span><br><span class="line">      obj.children = list.slice(chapterIndex + <span class="number">1</span>, arry[index + <span class="number">1</span>]);</span><br><span class="line">    }<span class="keyword">else</span> {</span><br><span class="line">      <span class="comment">// &#x7AE0;&#x540E;&#x4E00;&#x4E2A;index&#x4E0D;&#x5B58;&#x5728;&#xFF0C; &#x622A;&#x53D6;&#x5230;&#x6700;&#x540E;</span></span><br><span class="line">      obj = list[chapterIndex];</span><br><span class="line">      obj.isShow = <span class="number">0</span>;</span><br><span class="line">      obj.children = list.slice(<span class="number">0</span>, indexArray[<span class="number">0</span>]); <span class="comment">//indexArray[0]&#x4E3A;undefined&#xFF0C;slice&#x4E5F;&#x4F1A;&#x622A;&#x53D6;&#x5230;&#x672B;&#x5C3E;</span></span><br><span class="line">      filterTemplateLessonLists[index] = obj;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">return</span> filterTemplateLessonLists;</span><br><span class="line">  })</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><p></p>
+<p>&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;   &#x6211;&#x662F;&#x5206;&#x5272;&#x7EBF;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;<br></p><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7531;&#x6B64; [{}]  ===&gt; </span><br><span class="line">                       [{ </span><br><span class="line">                         title:<span class="string">&apos;chapter&apos;</span>,</span><br><span class="line">                         children:[{</span><br><span class="line">                           title:<span class="string">&apos;unit&apos;</span>,</span><br><span class="line">                           children: [{</span><br><span class="line">                            title: <span class="string">&apos;lesson&apos;</span>,</span><br><span class="line">                            children:[]}]}</span><br><span class="line">                         ]}]</span><br></pre></td></tr></tbody></table></figure><p></p>
+<hr><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -488,8 +508,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/Hexo/2019/03/10/hello-world.html" rel="next" title="初眼看世界">
-                <i class="fa fa-chevron-left"></i> 初眼看世界
+              <a href="/Javascript/2019/03/18/javascript-execute.html" rel="next" title="javascript小记">
+                <i class="fa fa-chevron-left"></i> javascript小记
               </a>
             
           </div>
@@ -497,10 +517,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/uncategorized/2019/04/11/node-loop.html" rel="prev" title="node-loop">
-                node-loop <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -591,10 +607,10 @@
               
               
               <div class="site-state-item site-state-categories">
-                
-                  <span class="site-state-item-count">3</span>
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
-                
+                </a>
               </div>
             
 
@@ -677,7 +693,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#javascript执行-Promise里的代码为什么比setTimeout先执行"><span class="nav-number">1.</span> <span class="nav-text">javascript执行:(Promise里的代码为什么比setTimeout先执行)</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#javascript的闭包和执行上下文"><span class="nav-number"></span> <span class="nav-text">javascript的闭包和执行上下文</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#javascript"><span class="nav-number"></span> <span class="nav-text">javascript</span></a></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#当章节课时这种本属于三层类型数据传入一维数组数据处理时👀"><span class="nav-number">1.</span> <span class="nav-text">当章节课时这种本属于三层类型数据传入一维数组数据处理时👀</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#当前台展示需要从一维数组转换为三维数组（章节课时等三层级父子级别关系型数据）-ˇˍˇ-想～"><span class="nav-number">2.</span> <span class="nav-text">当前台展示需要从一维数组转换为三维数组（章节课时等三层级父子级别关系型数据）(ˇˍˇ) 想～</span></a></li></ol></div>
             
 
           </div>

@@ -1,9 +1,11 @@
 ---
 title: node-loop
-tags: []
+tags: 
+- JavaScript
 date: 2019-04-11 21:58:03
 permalink:
-categories:
+categories: 
+- Javascript
 description:
 image:
 ---

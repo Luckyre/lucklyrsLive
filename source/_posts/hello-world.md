@@ -1,9 +1,13 @@
 ---
 title: 初眼看世界
-tags: []
+tags: 
+- Hexo
+- 随笔
+- 博客搭建
 date: 2019-03-10 13:09:10
 permalink:
-categories:
+categories: 
+- Hexo
 description:
 image:
 ---

@@ -1,9 +1,11 @@
 ---
 title: javascript小记
-tags: []
+tags: 
+- JavaScript
 date: 2019-03-18 22:12:18
 permalink:
-categories:
+categories: 
+- Javascript
 description:
 image:
 ---

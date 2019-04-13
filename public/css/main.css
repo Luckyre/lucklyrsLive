@@ -2025,7 +2025,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #bed7d1;
+  background: #5be221;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2945,9 +2945,6 @@ menu .menu-item .fa {
   font-family: 'Comic Sans MS', sans-serif;
   letter-spacing: 1px;
   color: #515359;
-}
-.main {
-  background: #fff;
 }
 .footer {
   background: none;
