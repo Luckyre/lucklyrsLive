@@ -40,7 +40,7 @@ image:
 ```
 $ hexo new [layout] <title> 创建新的文章模板
 ```
-  https://hexo.io/zh-cn/docs/writing.html（具体文档）
+  https://hexo.io/zh-cn/docs/writing（具体文档）
 
    Markdown语法
    
